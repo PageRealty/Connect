@@ -1,97 +1,98 @@
-<html>
-  <head>
-    <title>Connect With Us</title>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
-    <meta content="Links to Page Realty's profiles" name="description" />
+    <title>Connect With Us</title>
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
 
     <style>
-      body {
-        text-align: center;
-        margin-top: 48px;
-        font-family: "Josefin Sans", "Arial", sans-serif;
-        background: black;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        
+        body {
+            text-align: center;
+            font-family: "Josefin Sans", "Arial", sans-serif;
+            background: black;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #ffffff;
+        }
+
+        .profile-photo {
+            width: 200px;
+            height: 200px;
+        }
+
+        h1, p {
+            margin: 0;
+        }
+
+        p {
+            font-size: 22px;
+        }
+
+        .link-tree {
+            list-style: none;
+            padding: 0;
+            font-size: 20px;
+        }
+
+        .link-tree > li {
+            margin: 12px 0;
+        }
+
+        .link-tree > li a {
+            color: #364652;
+            background: #C7DBE6;
+            border-radius: 6px;
+            padding: 12px;
+            text-decoration: none;
+            max-width: 360px;
+            width: 90%;
+            display: block;
+            margin: 0 auto;
+        } 
+
+        .link-tree > li:nth-child(1) a {
+            background: #B9D2DF;
+        }
+
+        .link-tree > li:nth-child(2) a {
+            background: #9CC0D3;
+        }
+
+        .link-tree > li:nth-child(3) a {
+            background: #659BB8;
+        }
+
+        .link-tree > li:nth-child(4) a {
+            background: #4D88A8;
+        }
+
+        .link-tree > li a:hover,
+        .link-tree > li a:focus {
+            color: white;
+            background: #2D4F62;
         }
 
         .instagram-container {
             text-align: center;
             max-width: 540px;
             width: 100%;
+            margin: 0 auto; /* Center the container horizontally */
         }
-
-      h1, p {
-        color: #ffffff;
-      }
-
-      p {
-        font-size: 22px;
-      }
-
-      .profile-photo {
-        <!-- border-radius: 100%; -->
-        width: 200px;
-        height: 200px;
-      }
-
-      .link-tree {
-        list-style: none;
-        padding: 0;
-        font-size: 20px;
-      }
-
-      .link-tree > li {
-        margin: 12px 0;
-      }
-
-      .link-tree >li a {
-        color: #364652;
-        background: #C7DBE6;
-        border-radius: 6px;
-        padding: 12px;
-        text-decoration: none;
-        max-width: 360px;
-        width: 90%;
-        display: block;
-        margin: 0 auto;
-      } 
-
-      .link-tree > li:nth-child(1) a {
-        background: #B9D2DF;
-      }
-
-      .link-tree > li:nth-child(2) a {
-        background: #9CC0D3;
-      }
-
-      .link-tree > li:nth-child(3) a {
-        background: #659BB8;
-      }
-
-      .link-tree > li:nth-child(4) a {
-        background: #4D88A8;
-      }
-
-      .link-tree > li a:hover,
-      .link-tree > li a:focus {
-        color: white;
-        background: #2D4F62;
-      }
     </style>
-  </head>
+</head>
 
-  <body>
+<body>
     <img class="profile-photo" src="./MA306_secondary_wht.png" alt="BHHS Logo" />
-    
-    <h1><br><br>Connect With Us</h1>
+
+    <h1>Connect With Us</h1>
 
     <p>Real Estate Experts Serving Medfield, Medway, Millis, and surrounding towns.</p>
 
@@ -148,5 +149,7 @@
     </ul>
 
     <p>We love helping Medfield!</p>
-  </body>
+</body>
+
 </html>
+
