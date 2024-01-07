@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Embed</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0; /* Change the background color as needed */
+        }
+
+        .instagram-container {
+            text-align: center;
+            max-width: 540px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="instagram-container">
+        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/bhhspagerealtyma/?utm_source=ig_embed&amp;utm_campaign=loading"
+          data-instgrm-version="14" style=" 
+          background: #000000; 
+          border: 0;
+          border-radius: 3px;
+          box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5), 0 1px 10px 0 rgba(0, 0, 0, 0.15);
+          margin: 1px; 
+          max-width: 540px; 
+          min-width: 326px;
+          padding: 0; 
+          width: 99.375%; 
+          width: -webkit-calc(100% - 2px); 
+          width: calc(100% - 2px);"
+        >
+            <!-- Rest of the Instagram embed code -->
+        </blockquote>
+        <script async src="//www.instagram.com/embed.js"></script>
+    </div>
+</body>
+</html>
